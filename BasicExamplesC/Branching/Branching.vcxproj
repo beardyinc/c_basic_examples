@@ -151,7 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Branching.c" />
+    <ClCompile Include="IfElse.c" />
+    <ClCompile Include="SwitchCase.c" />
+    <ClCompile Include="While.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="While.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
