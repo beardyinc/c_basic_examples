@@ -15,22 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IfElse.c">
+    <ClCompile Include="Arrays.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SwitchCase.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="While.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="For.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="While.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
