@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Structs", "Structs\Structs.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IO", "IO\IO.vcxproj", "{D1DB2BF4-2EAC-4F2E-8A58-E1EAE758EA21}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assignment02", "Assignment02\Assignment02.vcxproj", "{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{D1DB2BF4-2EAC-4F2E-8A58-E1EAE758EA21}.Release|x64.Build.0 = Release|x64
 		{D1DB2BF4-2EAC-4F2E-8A58-E1EAE758EA21}.Release|x86.ActiveCfg = Release|Win32
 		{D1DB2BF4-2EAC-4F2E-8A58-E1EAE758EA21}.Release|x86.Build.0 = Release|Win32
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Debug|x64.ActiveCfg = Debug|x64
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Debug|x64.Build.0 = Debug|x64
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Debug|x86.Build.0 = Debug|Win32
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Release|x64.ActiveCfg = Release|x64
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Release|x64.Build.0 = Release|x64
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Release|x86.ActiveCfg = Release|Win32
+		{DEA4FF13-E254-42B1-8413-6BB7D41A6EA9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
