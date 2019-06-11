@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <Windows.h>
 
 bool readDoorSensor() {
 	int a = rand() % 101;
