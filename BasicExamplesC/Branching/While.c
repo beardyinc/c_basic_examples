@@ -9,14 +9,14 @@ bool readDoorSensor() {
 	return a <= 85;
 }
 
-void main() {
-	srand(time(NULL));
-
-	bool isDoorOpen = true;
-
-	while (isDoorOpen) {
-		printf("door is still open\n");
-		isDoorOpen = readDoorSensor();
-	}
-	printf("door is closed!");
-}
+//void main() {
+//	srand(time(NULL));
+//
+//	bool isDoorOpen = true;
+//
+//	while (isDoorOpen) {
+//		printf("door is still open\n");
+//		isDoorOpen = readDoorSensor();
+//	}
+//	printf("door is closed!");
+//}

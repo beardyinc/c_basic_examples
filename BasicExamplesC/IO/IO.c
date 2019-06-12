@@ -1,9 +1,12 @@
 #include <stdio.h>
+#pragma warning(disable : 4996)
 
 // call function in other c file
 extern void fileIOdemo();
 
 void main() {
+
+
 	char buffer[100];
 	int read;
 

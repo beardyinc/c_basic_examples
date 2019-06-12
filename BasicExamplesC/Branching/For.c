@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <Windows.h>
 
-void ForLoopDemo() {
-	for (int i = 0; i < 10; i++) {
-		printf("i is now %d", i);
+void main() {
+	
+	for (int i = 0; i<10 ; i++) {
+		printf("i is now %d\n", i);
 	}
 }
