@@ -1,6 +1,9 @@
 #include "Assignment_2c.h"
+#include "Assignment_ArraysLoops.h"
 
 void main() {
+
+	double pi = calculatePi(100000000);
 	char input[] = "blubb";
 	char* reversed = reverseString(input);
 	printf("input: %s\nreversed: %s\n", input, reversed);
