@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{EBCCA1CB-5930-4BAB-A329-8DA54CC0905D}</ProjectGuid>
-    <RootNamespace>Pointers</RootNamespace>
+    <ProjectGuid>{D7483FCB-DD4F-4558-97AC-2C4E877F6C57}</ProjectGuid>
+    <RootNamespace>Polynomials</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays.c" />
-    <ClCompile Include="Pointers.c" />
+    <ClInclude Include="Polynomials.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Arrays.h" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="Polynomials.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

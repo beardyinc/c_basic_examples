@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Pointers.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="Arrays.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Arrays.h">
+    <ClInclude Include="Polynomials.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Polynomials.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

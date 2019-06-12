@@ -4,7 +4,10 @@
 void main() {
 
 	double pi = calculatePi(100000000);
-	char input[] = "blubb";
+	printf("the approximated value of pi is %lf\n", pi);
+
+
+	char input[] = "Hello World!";
 	char* reversed = reverseString(input);
 	printf("input: %s\nreversed: %s\n", input, reversed);
 	free(reversed);
