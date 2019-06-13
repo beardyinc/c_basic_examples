@@ -33,13 +33,18 @@ void Person::setName(string name) {
 		this->name.assign(name);
 	}
 	else {
-		std::cerr << "Names must at least have 3 characters, " << name << " had " << name.length() << endl;
+		//std::cerr << "Names must at least have 3 characters, " << name << " had " << name.length() << endl;
+		string msg = "Names must at least have 3 characters!";
+		throw msg;
 	}
 }
 
 void Person::setAge(int age) {
 	if (age >= 0)
 		this->age = age;
-	else
-		std::cerr << "People cannot have a negative age, you entered " << age << endl;
+	else {
+		//std::cerr << "People cannot have a negative age, you entered " << age << endl;
+		string msg = "People cannot have a negative age";
+		throw std::invalid_argument(msg.c_str());
+	}
 }

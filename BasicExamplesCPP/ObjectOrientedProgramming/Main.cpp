@@ -26,4 +26,10 @@ int main()
 	cout << "Hi, my name is " << p2->getName() << " Age: " << p2->getAge() << endl;
 	
 	Person p3("Franzi", 14);
+	try {
+		p3.setAge(-4);
+	}
+	catch (std::logic_error msg) {
+		cout << "ERROR WHILE setAge(): " << msg.what() << endl;
+	}
 }
