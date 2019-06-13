@@ -4,6 +4,7 @@
 
 int main()
 {
+	
 	Car car1; // already allocated stack memory
 	Car* car2; // invalid pointer!
 	car2 = new Car();
@@ -20,7 +21,9 @@ int main()
 
 	p2->setName("Veronique");
 
-	cout << "Hi, my name is " << p1.getName() << endl;
-	cout << "Hi, my name is " << p2->getName() << endl;
 
+	cout << "Hi, my name is " << p1.getName() << " Age: " << p1.getAge() << endl;
+	cout << "Hi, my name is " << p2->getName() << " Age: " << p2->getAge() << endl;
+	
+	Person p3("Franzi", 14);
 }

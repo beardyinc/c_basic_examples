@@ -1,16 +1,22 @@
 #pragma once
+#include <sstream>
+#include <iostream>
+
+using namespace std;
 
 class Person {
 private:
 	int age;
-	char* name;
+	string name;
+
 public:
-	int getAge();
-	char* getName();
-	void setName(const char*);
+	int foo;
+	int getAge() const;
+	string getName() const;
+	void setName(string);
 	void setAge(int);
 	Person();
-	Person(const char* name, int age);
+	Person(string name, int age);
 	~Person();
 };
 

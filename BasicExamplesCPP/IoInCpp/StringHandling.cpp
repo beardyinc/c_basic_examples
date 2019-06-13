@@ -5,19 +5,23 @@ using namespace std;
 
 void stringTest() {
 
-	stringstream ss;
+
+
+	stringstream strStr;
 	int i = 55;
-	ss << i;
+	strStr << i;
 	// cout << ss << endl; // will not work!
-	string str = ss.str(); 	//convert to string object
+	string str = strStr.str(); 	//convert to string object
 	cout << "content of string: " << str << endl;
+
+
 	const char* cstr = str.c_str();	//convert to c-style string
 	int j;
-	ss >> j;
+	strStr >> j;
 	cout << "content of integer: " << j << endl;
 
-	ss << "blubb";
+	strStr << "blubb";
 	int k;
-	ss >> k;
+	strStr >> k;
 	cout << "content of integer: " << k << endl; // will not produce an error but print garbage!
 }
