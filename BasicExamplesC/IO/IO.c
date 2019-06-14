@@ -9,12 +9,13 @@ extern const char* readFile(char*);
 void main() {
 
 	//read a file
-	const char* fileContents= readFile("c:\\Users\\codersbay\\Documents\\test2.txt");
-	printf("Contents of file: \n\n%s\n\n", fileContents);
+	const char* fileContents= readFile("test2.txt");
+	if (fileContents != NULL) {
+		printf("Contents of file: \n\n%s\n\n", fileContents);
 
-	free(fileContents);
-	fileContents = NULL;
-
+		free(fileContents);
+		fileContents = NULL;
+	}
 
 
 	//write a file
